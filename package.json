@@ -1,0 +1,17 @@
+{
+  "name": "e-vaccine-remainder",
+  "version": "1.0.0",
+  "description": "E-Vaccine Reminder & Immunization Tracking System (MERN Stack)",
+  "scripts": {
+    "dev": "node dev-all.js",
+    "dev:win": "start-dev.bat",
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-router-dom": "^7.18.4"
+  }
+}
